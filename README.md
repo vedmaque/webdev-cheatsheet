@@ -1,4 +1,4 @@
-# nana-cheatsheet
+# webdev-cheatsheet
 
 ## Project setup
 ```
