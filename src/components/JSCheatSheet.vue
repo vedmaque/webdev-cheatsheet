@@ -159,7 +159,7 @@ const fruit = el.dataset.temp`}}
 
       <div class="section">
         <div class="part">
-          <h2>Добавление обработки для клика по элементу</h2>
+          <h2>Следим за кликом по элементу</h2>
           <pre><code>
 el.onclick = function () {
   console.log('на меня кликнули')
@@ -172,6 +172,15 @@ el.onclick = function () {
           <pre><code>
 inputEl.onchange = function () {
   console.log('что-то изменилось внутри меня')
+}
+          </code></pre>
+        </div>
+
+        <div class="part">
+          <h2>Следим за скроллом</h2>
+          <pre><code>
+el.onscroll = function () {
+  console.log('кто-то меня поскроллил')
 }
           </code></pre>
         </div>
